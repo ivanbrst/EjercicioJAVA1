@@ -6,6 +6,6 @@ public class EjercicioAleatorio{
 
 	Random r=new Random();
 	int valorDado =r.nextInt(6)+1;
-	System.out.println(""+valorDado+"");
+	System.out.println("El dado ha caído en "+valorDado+"");
 	}
 }
